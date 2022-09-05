@@ -3,7 +3,7 @@ public class StudentClass {
         String firstName;
         Character middleInitial;
         String dateOfBirth;
-        String studentNumber;
+        int studentNumber;
         String studentEmailAddress;
         boolean iAmAwesome;
     
