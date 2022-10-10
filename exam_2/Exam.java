@@ -20,8 +20,8 @@ public class Exam {
         studentID();
         oddEven();
         characLength();
-        upperLower();
-        vowels();
+        upperLowerCases();
+        vowelsCons();
         validation();
         sensitivity();
         nested();
@@ -84,7 +84,7 @@ public class Exam {
         // UPPERCASE and lowercase are EQUAL.
         // Otherwise, return false.
     
-        static void upperLower(){
+        static void upperLowerCases(){
         System.out.println("4. Check your first name in LOWERCASE and UPPERCASE");
         System.out.print("Enter your first name in lowercase: ");
         String firstNameInLowerCase = scan.next();
@@ -92,7 +92,7 @@ public class Exam {
         String firstNameInUpperCase = scan.next();
 
         if (firstNameInLowerCase.toLowerCase().equals("bianca")) {
-        if (firstNameInUpperCase.toUpperCase().equals("bianca")) {
+        if (firstNameInUpperCase.toUpperCase().equals("BIANCA")) {
                 System.out.println("valid");
             } else {
                 System.out.println("invalid");
@@ -105,7 +105,7 @@ public class Exam {
          // a vowel 'A','E','I','O','U'.
          // Otherwise, return false.
       
-        static void vowels(){
+        static void vowelsCons(){
         System.out.println("5. Vowel or Consonant");
         System.out.print("Enter the first character of your first name: ");
         char firstChar = scan.next().charAt(0);
@@ -273,7 +273,6 @@ public class Exam {
             } else {
                 System.out.println("invalid");
             }
-        }
 
  //         // ==============================================================================
 //         // Programming competition/Job interview level question (20 points)
@@ -301,3 +300,4 @@ public class Exam {
 //         // Close scanner
             scan.close(); 
     }
+}
