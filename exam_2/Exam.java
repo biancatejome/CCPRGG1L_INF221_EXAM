@@ -229,31 +229,39 @@ public class Exam {
 
         static void Selection(){
         System.out.println("9. Selection");
+
+        System.out.println("STEM");
+        System.out.println("ICT");
+        System.out.println("ABM");
+        System.out.println("HUMMS");
+        System.out.println("HOME ECONOMICS");
+        System.out.println("ARTS AND DESIGN");
+        System.out.println("TVL MARITIME");
         
         System.out.print("Enter your SHS strand: ");
         String strand = scan.next();
 
         switch (strand) {
             case "STEM":
-                System.out.println("STEM");
+                System.out.println("You're in SHS - STEM strand");
                 break;
             case "ICT":
-                System.out.println("ICT");
+                System.out.println("You're in SHS - ICT strand");
                 break;
             case "ABM":
-                System.out.println("ABM");
+                System.out.println("You're in SHS - ABM strand");
                 break;
             case "HUMMS":
-                System.out.println("HUMMS");
+                System.out.println("You're in SHS - HUMMS strand");
                 break;
             case "HOME ECONOMICS":
-                System.out.println("HOME ECONOMICS");
+                System.out.println("You're in SHS - HOME ECONOMICS strand");
                 break;
             case "ARTS AND DESIGN":
-                System.out.println("ARTS AND DESIGN");
+                System.out.println("You're in SHS - ARTS AND DESIGN strand");
                 break;
             case "TVL MARITIME":
-                System.out.println("TVL MARITIME");
+                System.out.println("You're in SHS - TVL MARITIME strand");
                 break;
             default:
                 System.out.println("INVALID STRAND");
